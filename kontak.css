@@ -1,0 +1,122 @@
+body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image:url("B1.png");
+        background-size: cover;
+}
+
+/* Header */
+
+header {
+        width: auto;
+        height: 50px;
+        background-color: rgb(190, 164, 92);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        margin: 0;
+}
+
+header .logo {
+        float: left;
+        padding: 10px 20px;
+        margin: 0;
+        color: wheat;
+        font-size: 30px;
+}
+
+header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+}
+
+header nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        color: wheat;
+}
+
+/* Kotak form */
+
+.contact-form {
+        max-width: 500px;
+        margin: 50px auto;
+        background: rgb(255, 255, 255);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        color: rgb(85, 65, 27);
+}
+
+/* Label dan input */
+.contact-form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #9b6a43;
+        border-radius: 6px;
+        font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+        border-color: #b1332e;
+        outline: none;
+        box-shadow: 0 0 5px rgba(134, 54, 180, 0.5);
+}
+
+/* Tombol */
+
+.contact-form button {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        background-color: rgb(190, 164, 92);
+        color: white;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s;
+}
+
+.contact-form button:hover {
+        background-color: #4d3605;
+}
+
+label {
+        font-size: px;
+}
+
+/* Footer */
+
+footer {
+    width: auto;
+    height: 55px;
+    background-color: rgb(90, 88, 88);
+    clear: both;
+}
+
+h4 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px 20px;
+    margin: 0;
+}
